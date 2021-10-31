@@ -34,7 +34,7 @@ function About() {
             <p>
               Having Prio knowledge in Web Development. I have worked on
               different projects building interective Web pages and Database
-              using tools such as PHP,PYTHON AND JAVASCRIPT
+              using tools such as REACT, REDUX, FIREBASE
             </p>
           </div>
 
@@ -44,16 +44,17 @@ function About() {
             <p>
               I am very passionate in designs. I try as much to build Nice and
               awesome User Interfaces UI, Layouts in simple and molden Designs
-              using HTML5, CSS3, JAVASCRIPT, BOOTSTRAP AND MATERIAL DESIGN
+              using HTML5, CSS3, JAVASCRIPT, BOOTSTRAP AND MATERIAL DESIGN and REACT
             </p>
           </div>
 
           <div className="job job-3">
-            <h3>Webworks</h3>
+            <h3>Others</h3>
             <h6>Graphic Designer</h6>
             <p>
               Graphic works are arts that showcase ones creative ideas into
-              reality. Contact me for all your Graphic Design works
+              reality.I do use tools like PHOTOSHOP, ILLUSTRATOR to create engaging graphical contents.
+               Contact me for all your Graphic Design works
             </p>
           </div>
         </div>

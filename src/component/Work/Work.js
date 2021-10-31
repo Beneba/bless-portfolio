@@ -1,4 +1,6 @@
 import React from "react";
+import {  Link } from "react-router-dom";
+import "../../main"
 
 function Work() {
   return (
@@ -11,165 +13,164 @@ function Work() {
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="projects">
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
+              
               <img src="img/projects/ameco-sch.jpg" alt="Ameco school site" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> COLLEGE WEBSITE
-            </a>
-            <a
-              href="#"
-              className="btn-darWork Workk"
-            >
+             </Link >
+             <Link to = "/"
+              className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project5 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/beneba.jpg" alt="Bless site" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i>BENEBA WEBSITE
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project6 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/islamic.jpg" alt="Ismalic site" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> ISMALIC WEBSITE
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project11 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/mytunes.png" alt="Itunes" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> MYTUNES WEBSITE
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project3 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/tour.jpg" alt="Travel and tour" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> TRAVEL & TOUR
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project9 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/login.jpg" alt="Sign up" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> SIGN UP PAGE
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
           {/* project7 */}
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/mygame.jpg" alt="Game App" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> TYPING GAME
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project8 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/music.jpg" alt="Music app" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> MUSIC APP
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project4 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/depaul.jpg" alt="Depaul university" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> DEPAUL UNIVERSITY
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           {/* project2 */}
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/project2.jpg" alt="Project" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> Project
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
 
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/project4.jpg" alt="Project" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> Project
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
           <div className="item">
-            <a href="#!">
+             <Link to = "#!"> 
               <img src="img/projects/college.jpg" alt="Ameco" />
-            </a>
-            <a href="#" className="btn-light">
+             </Link >
+            <Link to = "/" className="btn-light">
               <i className="fas fa-eye"></i> AMECO WEBSITE
-            </a>
-            <a href="#" className="btn-dark">
+             </Link >
+            <Link to = "/" className="btn-dark">
               <i className="fab fa-github"></i> Github
-            </a>
+             </Link >
           </div>
         </div>
       </main>

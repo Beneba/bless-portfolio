@@ -1,12 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link,Switch } from "react-router-dom";
-// import "../../main"
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import About from "./component/About/About";
+import Contact from "./component/Contact/Contact";
+import Footer from "./component/Footer/Footer";
+import Header from "./component/Header/Header";
+import Home from "./component/Home/Home";
+import Work from "./component/Work/Work";
+import "./main";
 
-function Header() {
+
+function RoutePages() {
   return (
-    <Router>
-      <div>
-        <header>
+    <div>
+      {/* <Header />    */}
+
+      <Router>
+      <header>
           <div className="menu-btn">
             <div className="btn-line"></div>
             <div className="btn-line"></div>
@@ -36,16 +45,25 @@ function Header() {
             </ul>
           </nav>
         </header>
-      </div>
-      {/* <Switch>
+
+
+      {/* <Link to="/Home">Home</Link>
+        <Link to="/About">About</Link>
+        <Link to="/Work">Work</Link>
+        <Link to="/Contact">Contact</Link> */}
+
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Home" component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Work" component={Work} />
-          <Route path="/contact" component={Contact} />
-        </Switch> */}
-    </Router>
+          <Route path="/Contact" component={Contact} />
+        </Switch>
+
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
-export default Header;
+export default RoutePages;
