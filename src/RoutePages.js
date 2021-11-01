@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
-import Header from "./component/Header/Header";
 import Home from "./component/Home/Home";
 import Work from "./component/Work/Work";
 import "./main";
